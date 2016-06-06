@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68D259181D05330500CDE4CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D259171D05330500CDE4CF /* AppDelegate.swift */; };
+		68D2591A1D05330500CDE4CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D259191D05330500CDE4CF /* ViewController.swift */; };
+		68D2591D1D05330500CDE4CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D2591B1D05330500CDE4CF /* Main.storyboard */; };
+		68D259201D05330500CDE4CF /* BigBTC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68D2591E1D05330500CDE4CF /* BigBTC.xcdatamodeld */; };
+		68D259221D05330500CDE4CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D259211D05330500CDE4CF /* Assets.xcassets */; };
+		68D259251D05330500CDE4CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D259231D05330500CDE4CF /* LaunchScreen.storyboard */; };
+		68D259301D05330500CDE4CF /* BigBTCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D2592F1D05330500CDE4CF /* BigBTCTests.swift */; };
+		68D2593B1D05330500CDE4CF /* BigBTCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D2593A1D05330500CDE4CF /* BigBTCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68D2592C1D05330500CDE4CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68D2590C1D05330500CDE4CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68D259131D05330500CDE4CF;
+			remoteInfo = BigBTC;
+		};
+		68D259371D05330500CDE4CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68D2590C1D05330500CDE4CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68D259131D05330500CDE4CF;
+			remoteInfo = BigBTC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68D259141D05330500CDE4CF /* BigBTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigBTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D259171D05330500CDE4CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68D259191D05330500CDE4CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68D2591C1D05330500CDE4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68D2591F1D05330500CDE4CF /* BigBTC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BigBTC.xcdatamodel; sourceTree = "<group>"; };
+		68D259211D05330500CDE4CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68D259241D05330500CDE4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68D259261D05330500CDE4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D2592B1D05330500CDE4CF /* BigBTCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigBTCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D2592F1D05330500CDE4CF /* BigBTCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBTCTests.swift; sourceTree = "<group>"; };
+		68D259311D05330500CDE4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D259361D05330500CDE4CF /* BigBTCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigBTCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D2593A1D05330500CDE4CF /* BigBTCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBTCUITests.swift; sourceTree = "<group>"; };
+		68D2593C1D05330500CDE4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68D259111D05330500CDE4CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D259281D05330500CDE4CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D259331D05330500CDE4CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68D2590B1D05330500CDE4CF = {
+			isa = PBXGroup;
+			children = (
+				68D259161D05330500CDE4CF /* BigBTC */,
+				68D2592E1D05330500CDE4CF /* BigBTCTests */,
+				68D259391D05330500CDE4CF /* BigBTCUITests */,
+				68D259151D05330500CDE4CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68D259151D05330500CDE4CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68D259141D05330500CDE4CF /* BigBTC.app */,
+				68D2592B1D05330500CDE4CF /* BigBTCTests.xctest */,
+				68D259361D05330500CDE4CF /* BigBTCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68D259161D05330500CDE4CF /* BigBTC */ = {
+			isa = PBXGroup;
+			children = (
+				68D259171D05330500CDE4CF /* AppDelegate.swift */,
+				68D259191D05330500CDE4CF /* ViewController.swift */,
+				68D2591B1D05330500CDE4CF /* Main.storyboard */,
+				68D259211D05330500CDE4CF /* Assets.xcassets */,
+				68D259231D05330500CDE4CF /* LaunchScreen.storyboard */,
+				68D259261D05330500CDE4CF /* Info.plist */,
+				68D2591E1D05330500CDE4CF /* BigBTC.xcdatamodeld */,
+			);
+			path = BigBTC;
+			sourceTree = "<group>";
+		};
+		68D2592E1D05330500CDE4CF /* BigBTCTests */ = {
+			isa = PBXGroup;
+			children = (
+				68D2592F1D05330500CDE4CF /* BigBTCTests.swift */,
+				68D259311D05330500CDE4CF /* Info.plist */,
+			);
+			path = BigBTCTests;
+			sourceTree = "<group>";
+		};
+		68D259391D05330500CDE4CF /* BigBTCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68D2593A1D05330500CDE4CF /* BigBTCUITests.swift */,
+				68D2593C1D05330500CDE4CF /* Info.plist */,
+			);
+			path = BigBTCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68D259131D05330500CDE4CF /* BigBTC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68D2593F1D05330500CDE4CF /* Build configuration list for PBXNativeTarget "BigBTC" */;
+			buildPhases = (
+				68D259101D05330500CDE4CF /* Sources */,
+				68D259111D05330500CDE4CF /* Frameworks */,
+				68D259121D05330500CDE4CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BigBTC;
+			productName = BigBTC;
+			productReference = 68D259141D05330500CDE4CF /* BigBTC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68D2592A1D05330500CDE4CF /* BigBTCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68D259421D05330500CDE4CF /* Build configuration list for PBXNativeTarget "BigBTCTests" */;
+			buildPhases = (
+				68D259271D05330500CDE4CF /* Sources */,
+				68D259281D05330500CDE4CF /* Frameworks */,
+				68D259291D05330500CDE4CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68D2592D1D05330500CDE4CF /* PBXTargetDependency */,
+			);
+			name = BigBTCTests;
+			productName = BigBTCTests;
+			productReference = 68D2592B1D05330500CDE4CF /* BigBTCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68D259351D05330500CDE4CF /* BigBTCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68D259451D05330500CDE4CF /* Build configuration list for PBXNativeTarget "BigBTCUITests" */;
+			buildPhases = (
+				68D259321D05330500CDE4CF /* Sources */,
+				68D259331D05330500CDE4CF /* Frameworks */,
+				68D259341D05330500CDE4CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68D259381D05330500CDE4CF /* PBXTargetDependency */,
+			);
+			name = BigBTCUITests;
+			productName = BigBTCUITests;
+			productReference = 68D259361D05330500CDE4CF /* BigBTCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68D2590C1D05330500CDE4CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Joel Klabo";
+				TargetAttributes = {
+					68D259131D05330500CDE4CF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					68D2592A1D05330500CDE4CF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 68D259131D05330500CDE4CF;
+					};
+					68D259351D05330500CDE4CF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 68D259131D05330500CDE4CF;
+					};
+				};
+			};
+			buildConfigurationList = 68D2590F1D05330500CDE4CF /* Build configuration list for PBXProject "BigBTC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68D2590B1D05330500CDE4CF;
+			productRefGroup = 68D259151D05330500CDE4CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68D259131D05330500CDE4CF /* BigBTC */,
+				68D2592A1D05330500CDE4CF /* BigBTCTests */,
+				68D259351D05330500CDE4CF /* BigBTCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68D259121D05330500CDE4CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D259251D05330500CDE4CF /* LaunchScreen.storyboard in Resources */,
+				68D259221D05330500CDE4CF /* Assets.xcassets in Resources */,
+				68D2591D1D05330500CDE4CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D259291D05330500CDE4CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D259341D05330500CDE4CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68D259101D05330500CDE4CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D2591A1D05330500CDE4CF /* ViewController.swift in Sources */,
+				68D259201D05330500CDE4CF /* BigBTC.xcdatamodeld in Sources */,
+				68D259181D05330500CDE4CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D259271D05330500CDE4CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D259301D05330500CDE4CF /* BigBTCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D259321D05330500CDE4CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D2593B1D05330500CDE4CF /* BigBTCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68D2592D1D05330500CDE4CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68D259131D05330500CDE4CF /* BigBTC */;
+			targetProxy = 68D2592C1D05330500CDE4CF /* PBXContainerItemProxy */;
+		};
+		68D259381D05330500CDE4CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68D259131D05330500CDE4CF /* BigBTC */;
+			targetProxy = 68D259371D05330500CDE4CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68D2591B1D05330500CDE4CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68D2591C1D05330500CDE4CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68D259231D05330500CDE4CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68D259241D05330500CDE4CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68D2593D1D05330500CDE4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68D2593E1D05330500CDE4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68D259401D05330500CDE4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BigBTC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelklabo.BigBTC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68D259411D05330500CDE4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BigBTC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelklabo.BigBTC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68D259431D05330500CDE4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BigBTCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelklabo.BigBTCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigBTC.app/BigBTC";
+			};
+			name = Debug;
+		};
+		68D259441D05330500CDE4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BigBTCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelklabo.BigBTCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigBTC.app/BigBTC";
+			};
+			name = Release;
+		};
+		68D259461D05330500CDE4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BigBTCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelklabo.BigBTCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BigBTC;
+			};
+			name = Debug;
+		};
+		68D259471D05330500CDE4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BigBTCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelklabo.BigBTCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BigBTC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68D2590F1D05330500CDE4CF /* Build configuration list for PBXProject "BigBTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D2593D1D05330500CDE4CF /* Debug */,
+				68D2593E1D05330500CDE4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68D2593F1D05330500CDE4CF /* Build configuration list for PBXNativeTarget "BigBTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D259401D05330500CDE4CF /* Debug */,
+				68D259411D05330500CDE4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68D259421D05330500CDE4CF /* Build configuration list for PBXNativeTarget "BigBTCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D259431D05330500CDE4CF /* Debug */,
+				68D259441D05330500CDE4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68D259451D05330500CDE4CF /* Build configuration list for PBXNativeTarget "BigBTCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D259461D05330500CDE4CF /* Debug */,
+				68D259471D05330500CDE4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		68D2591E1D05330500CDE4CF /* BigBTC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				68D2591F1D05330500CDE4CF /* BigBTC.xcdatamodel */,
+			);
+			currentVersion = 68D2591F1D05330500CDE4CF /* BigBTC.xcdatamodel */;
+			path = BigBTC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 68D2590C1D05330500CDE4CF /* Project object */;
+}
